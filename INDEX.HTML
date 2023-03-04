@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Relação de Funcionarios:</p>
+    <form action="#" method="get" target="blank" autocomplete="off">
+        <form type="text">Informações:</form>
+
+        <p>
+            <label for="Seu nome"></label>
+            <input type="text" placeholder="seu nome" id="seu nome" name="nome"><br>
+            <label for="Sua idade"></label>
+            <input type="number" placeholder="idade" id="sua idade" name="sua idade" min="17" max="60"><br>
+            <label for="Email"></label>
+            <input type="email" placeholder="ex: email@email.com" name="seu e-mail"> <br>
+        </p>
+        <p>
+            Seu genero: <br>
+            <label for="genero">Masculino </label>
+            <input type="checkbox" name="genero" id="genero"><br>
+            <label for="genero2">Feminino</label>
+            <input type="checkbox" name="genero2" id="genero2"><br>
+        </p>
+        <p>
+            Sua foto: <br>
+            <label for="file"></label>
+            <input type="file" name="file" id="file" accept=".png,.svg,image/*"> <br>
+            <label for="data">Data de inscrição:</label> <br>
+            <input type="datetime-local">
+        </p>
+        <label for=select>Sua função:</label>
+        <select name="select" id="select">
+            <option value="função1" label="Professor">
+            <option value="função2" label="Diretor">
+            <option value="função3" label="Administrador">
+        </select>
+         <p>
+        <label for="area">Deixe uma crítica ou elogio:</label><br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+         </p>
+
+        <p>
+            <button type="submit">enviar</button>
+            <button type="reset">reset</button>
+        </p>
+
+</body>
+
+</html>
